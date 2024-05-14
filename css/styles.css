@@ -930,7 +930,8 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mob-nav-menu {
@@ -949,7 +950,7 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mob-nav-link:hover,
