@@ -278,10 +278,10 @@ img {
 
 @media screen and (min-width: 768px) {
     .hero {
-        max-width: 768px;
+        min-width: 768px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(../images/tablet-img/bg_img/Dark-bg.png);
-        padding: 112 px 0 112px;
+        padding: 112px 0 112px;
     }
 
     @media screen and (max-width: 1157px) and (min-resolution: 192dpi) {
@@ -297,7 +297,6 @@ img {
         line-height: 1.07;
         max-width: 496px;
         margin-bottom: 36px;
-        
     }
 }
 
@@ -305,7 +304,7 @@ img {
 
 @media screen and (min-width: 1158px) {
     .hero {
-        max-width: 1440px;
+        min-width: 1440px;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/desktop-img/bg-img/people-office\ 1.png);
         padding: 188px 0 188px;
     }
